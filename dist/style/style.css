@@ -1,0 +1,62 @@
+:root {
+  --background-color: #de0075;
+  --ctrl-padding: 0.375rem 0.75rem;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+input[id='count-input'] {
+  width: 5rem;
+  margin-right: 0.5rem;
+}
+
+.container {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.form-group {
+  /* width: 6rem; */
+  margin-bottom: 0.5rem;
+}
+
+.form-control-error {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: smaller;
+}
+
+.form-control {
+  display: block;
+  padding: var(--ctrl-padding);
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  width: 55px;
+  padding: var(--ctrl-padding);
+  border: none;
+  color: white;
+  background-color: var(--background-color);
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: black;
+}

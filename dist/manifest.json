@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Provision-Wait by Ivan",
+  "version": "0.2",
+  "author": "Ivan Brajković",
+  "description": "Parkiranje uključenja.",
+  "permissions": ["tabs", "activeTab", "declarativeContent", "storage"],
+  "icons": {
+    "64": "./img/parking.png"
+  },
+  "background": {
+    "scripts": ["./js/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://127.0.0.1/*", "http://sdslam3p.ad.local/*"],
+      "js": ["./js/provisioningWait.js", "./js/content.js"]
+    }
+  ],
+  "page_action": {
+    "show_matches": ["https://developer.chrome.com/*"],
+    "default_title": "Parkiranje",
+    "default_icon": "./img/parking.png",
+    "default_popup": "popup.html"
+  }
+}
