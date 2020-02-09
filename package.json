@@ -1,0 +1,8 @@
+{
+  "name": "provision-wait",
+  "version": "0.1",
+  "private": true,
+  "description": "Parkiranje uključenja",
+  "author": "Ivan Brajković",
+  "license": "ISC"
+}

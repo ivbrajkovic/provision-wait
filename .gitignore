@@ -1,0 +1,5 @@
+# git add . && git commit -m "add responsive" && git push && npm build && npm run deploy
+
+dist
+node_modules
+*_old*
