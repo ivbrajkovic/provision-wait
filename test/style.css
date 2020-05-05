@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+.validation {
+  padding: 10px;
+  margin-top: 40px;
+  position: relative;
+  left: 10px;
+  display: none;
+  border-top: 1px solid #d7d7d7;
+}
+
+.text_alert {
+  position: absolute;
+  top: 15px;
+  left: 0px;
+  font-weight: bold;
+}
+.error_box {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  color: red;
+  font-size: 12px;
+}
+
+.preostaloVrijeme {
+  position: relative;
+  width: 250px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  height: 50px;
+  line-height: 45px;
+}
+
+#gumb {
+  position: relative;
+  top: 15px;
+}
+
+.left-side.sidebar-offcanvas,
+.navbar-btn.sidebar-toggle {
+  //
+  display: none;
+}
+
+.right-side {
+  padding: 20px;
+}
+
+#Tlogo {
+  position: relative;
+  top: 4px;
+  padding-top: 1px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#Smetnje {
+  background-color: rgb(75, 172, 198);
+}
+
+#DIS {
+  background-color: rgb(155, 187, 89);
+}
+
+#UkljuÄŤenja {
+  background-color: rgb(192, 80, 77);
+}
+
+.label.label-sm.label-success,
+.label.label-sm.label-info,
+.label.label-sm.label-warning {
+  cursor: pointer;
+  position: relative;
+  top: 5px;
+}

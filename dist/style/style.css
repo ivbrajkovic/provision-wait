@@ -10,8 +10,8 @@ body {
   line-height: 1.5;
 }
 
-input[id='count-input'] {
-  width: 5rem;
+input[type='text'] {
+  width: 2rem;
   margin-right: 0.5rem;
 }
 
@@ -20,15 +20,8 @@ input[id='count-input'] {
   display: flex;
 }
 
-.form-group {
-  /* width: 6rem; */
-  margin-bottom: 0.5rem;
-}
-
-.form-control-error {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  font-size: smaller;
+.container button + button {
+  margin-left: 0.5rem;
 }
 
 .form-control {
@@ -43,7 +36,7 @@ input[id='count-input'] {
 
 .btn {
   display: inline-block;
-  width: 55px;
+  /* width: 55px; */
   padding: var(--ctrl-padding);
   border: none;
   color: white;
